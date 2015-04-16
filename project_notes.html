@@ -1,0 +1,276 @@
+<!-- This is My HTML document -->
+<!DOCTYPE html>
+<head>
+  <title>Intro To Programming Course Notes</title>
+  <link rel="stylesheet" href="notes-style.css">
+</head>
+<body>
+  <div class="Table_Cont">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+        <ul>
+          <li><a href="#lesson-1-1">How the Web Works</a></li>
+          <li><a href="#lesson-1-2">HTML</a></li>
+          <li><a href="#lesson-1-3">Tags and Elements</a></li>
+          <li><a href="#lesson-1-4">Why Computers are Stupid</a></li>
+          <li><a href="#lesson-1-5">Inline vs Block Elements</a></li>
+        </ul>
+      </li>
+      <li class="Table_Cont_Lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+        <ul>
+          <li><a href="#lesson-2-1">Developer Tools</a></li>
+          <li><a href="#lesson-2-2">HTML's "tree-like" Structure</a></li>
+          <li><a href="#lesson-2-3">Indentations and Boxes</a></li>
+          <li><a href="#lesson-2-4">Text Editors</a></li>
+        </ul>
+      </li>
+      <li class="Table_Cont_Lesson"><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a>
+        <ul>
+          <li><a href="#lesson-3-1">Avoiding Repetition</a></li>
+          <li><a href="#lesson-3-2">CSS</a></li>
+          <li><a href="#lesson-3-3">Code,Test,Refine</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <h1>Important Concepts</h1>
+  <div class="lesson">
+    <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+    <div class="concept" id="lesson-1-1">
+      <div class="concept-title">
+        The World Wide Web
+      </div>
+      <div class="concept-description">
+        <p>
+          The web is a bunch of computers that communicate with
+          each other. HTML documents make up the visual part of
+          the world wide web.
+        </p>
+        <p>
+          A person receives these HTML documents from the web 
+          via <em>HTTP</em> request sent to and from a <em>web
+          browser</em>. Here is a link to a <a href= "https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496"> video </a> for further explination.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-2">
+      <div class="concept-title">
+        HTML
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML stands for <em>Hypertext Markup
+          Language.</em> HTML documents form the majority of the
+          content on the web.
+        </p>
+        <p>
+          HTML documents contain <em>text
+          content</em> which describes "what you see" and
+          <em>markup</em> which describes
+          "how it looks". <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">This
+          video</a> gives a good overview.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-3">
+      <div class="concept-title">
+        Tags and Elements
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML documents are made of HTML elements. When writing 
+          HTML, we tell browsers the type of each <b><em>element</em></b>
+          by using HTML <b><em>tags</em></b>.
+        </p>
+        <br>
+        <p>
+          <b>Tags:</b> "b" tag (<b>bold</b>) or "em" tag (
+          <em>italics or emphais</em>). Tags are made up of an
+          open tag and a closed tag with some sort of contents 
+          between them. The contents that falls between the open
+          and close tags is what the tags are being applied to.
+        </p>
+        <br>
+        <p>
+          <b>Attributes:</b> "a" (<b>anchor</b>) attribute is for
+          creating links. This attribute is made up of the attribute
+          name (<em>href</em>), value (<em>web address 
+          "www.google.com"</em>), and discripter word that will be 
+          highlighted indicating a link is present.
+        </p>
+        <br>
+        <p>
+         <b>Image:</b> "img" (<b>image</b>) tags are <em>VOID</em>
+          tags, which means they don't have content. They are made
+          up of <em>src</em> (source or location of saved image) 
+          and <em>alt</em> (alternate text to be displayed when 
+          fails to load.
+        </p>
+        
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-4">
+      <div class="concept-title">
+        Communicating with Computers
+      </div>
+      <div class="concept-description">
+        <p>
+          Communication with computers is very difficult due to
+          the fact that they interpret instructions literally. 
+          So the process of communication is very unforgiving
+          due to a small mistake by a programmer can cause huge 
+          problems in a program as well as making the debugging
+          process difficult.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-1-5">
+      <div class="concept-title">
+        Inline vs Block Elements
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML elements are either <b>inline</b>
+          or <b>block</b>. Block elements form
+          an "invisible box" around the content inside of them.
+        </p>
+        <p>
+          <b>Container Elements:</b> are elements that contain 
+          nested text or content of other elements. Examples of
+          container elements are <b><em> span</em></b> which is 
+          an inline element and <b><em>dib</em></b> which is a 
+          block element.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+    <div class="concept" id="lesson-2-1">
+      <div class="concept-title">
+        Developer Tools (in the Browser)
+      </div>
+      <div class="concept-description">
+        <p>
+          Developer Tools allows you inspect or see the HTML
+          elements in a "tree like" structure. This tool also
+          helps the programmer visualize the content as either 
+          <em>block</em> or <em>inline</em>. 
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-2">
+      <div class="concept-title">
+        The "tree-like structure" of HTML
+      </div>
+      <div class="concept-description">
+        <p>
+          The "tree-like structure" comes from the fact that HTML
+          elements can have other elements inside of them. This is 
+          also refered to as <em>Nested</em> elements.
+        </p>
+        <p>
+          In a browser, this structure shows up as a series
+          of nested boxes. There are boxes inside of boxes
+          inside of boxes, and so on.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-3">
+      <div class="concept-title">
+        The relationship between indented HTML and boxes
+      </div>
+      <div class="concept-description">
+        <p>
+          When you read an HTML document as
+          <em>text</em>, you see a wave of
+          changing indentations going up and down the left side
+          of the document. The more indented an element is, the
+          more deeply nested its corresponding "box" is.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-2-4">
+      <div class="concept-title">
+        Web Page Lanuages
+      </div>
+      <div class="concept-description">
+        <p>
+          <em>HTML</em> is the structure (framework) of a webpage.
+          <br><em>CSS</em> is the style of a webpage, how it looks.
+          <br><em>Java Script</em> is the interactive componets of
+          a website.
+          <br><br>
+          <em>DOM:</em> Document object Model is the tree like 
+          structure of an HTML document.
+        </p>
+        <p>
+          All elements of an HTML document are rectanglar in shape. So in other words an HTML document is made up of a seris of smaller boxes on top of larger or a large box.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="concept" id="lesson-3-1">
+      <div class="concept-title">
+        Avoiding Repetition
+      </div>
+      <div class="concept-description">
+        <p>
+          Avoiding repetition is important for a variety of reasons.
+        </p>
+        <p>
+          <b>Errors:</b> repetition in programming is the act of writing the same
+          code over and over or copy and pasting certain style attributes into many HTML elements many times. This can and in most cases does lead to errors being introduced into your code when a change is made. If the change is
+          is not made everywhere the repeated code appears, problems will arise.
+        </p>
+        <p>
+          <b>Consistency:</b> by using <b><em>CSS</em></b> or <b><em>STYLE</em></b> tags it introduces consistency and avoid repetition of code. This is accomplished by assigning <em>div</em> the same <em>class</em> and specifying the style for each class in one place. This allows the 
+          programmer to make changes to the style very eaisly and quickly.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-2">
+      <div class="concept-title">
+        CSS
+      </div>
+      <div class="concept-description">
+        <p>
+          CSS stands for <b><em>C</em></b>ascading <b><em>S</em></b>tyle 
+          <b><em>S</em></b>heets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same <b>class</b> name and then specifying the style that should apply to that class.
+        </p>
+        <p>
+          <b>Inheritance:</b> (ancestor-decendant relationship) is the
+          mechanism by which properties are applied not only to a 
+          specified element, but also its decendents. This means that
+          a nested or child element inherits any properties from the 
+          main or parent element unless that property or rule is
+          overridden by property or rule in that specific element.
+        </p>
+        
+          
+      </div>
+    </div>
+      <div class="concept" id="lesson-3-3">
+        <div class="concept-title">
+          Code, Test, Refine
+        </div>
+        <div class="concept-description">
+          <p>
+            <b>Code, Test, Refine</b> refers to the process or 
+            steps that programmers take when developing a web
+            page. The 5 main steps are as follows:
+          </p>
+          <p>
+            <b>1.</b> Look for natural boxes <br>
+            <b>2.</b> Look for repeated styles and semantiz elements<br>
+            <b>3.</b> Write your HTML<br>
+            <b>4.</b> Apply styles (move <b>BIGGEST</b> to <em> smallest</em>)<br>
+            <b>5.</b> Test and Fix 
+          </p>
+        </div>     
+    </div>
+  </div>
+</body>
